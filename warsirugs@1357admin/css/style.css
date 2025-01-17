@@ -1,0 +1,620 @@
+/* CSS Document 
+    #33abb7 */inner
+
+
+/* #ff5a00 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #6f6f6f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f2f8fd;
+}
+
+img {
+    border: none;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 120%;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-size: 90%;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    font-size: 80%;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h6 {
+    font-size: 75%;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: left;
+    margin: 0px;
+    line-height: 26px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #00aeef;
+}
+
+a {
+    text-decoration: none;
+    color: #464d4d;
+    transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00aeef;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-top: 10px;
+}
+
+ul ul ul {
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+ul ul ul ul {
+    list-style-type: circle;
+    margin-top: 10px;
+}
+
+ol {
+    margin: 0px 0 0 30px;
+    padding: 0px;
+    line-height: 19px;
+}
+
+ol ol {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+ol ol ol {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+ul li {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+ul li ul li {
+    list-style-type: none;
+}
+
+ul li ul li ul li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+ol li {
+    list-style-type: decimal;
+    margin-bottom: 7px;
+}
+
+ol li ol li {
+    list-style-type: lower-alpha;
+}
+
+ol li ol li ol li {
+    margin-bottom: 5px;
+    list-style-type: decimal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+th,
+thead th,
+tbody th {
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    font-size: 105%;
+    padding: 6px;
+    text-align: left;
+}
+
+th a,
+thead th a,
+tbody th a {
+    text-decoration: none;
+}
+
+th a:hover,
+thead th a:hover,
+tbody th a:hover {
+    text-decoration: underline;
+}
+
+td {
+    padding: 10px 10px !important;
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    word-wrap: break-word!important;
+}
+
+td h3 {
+    font-size: 22px;
+    color: #31383e;
+    font-weight: 400;
+    text-align: center;
+}
+
+td h4 {
+    font-size: 17px;
+    color: #31383e;
+    font-weight: 500;
+    text-align: left;
+}
+
+td a {
+    text-decoration: none;
+    font-weight: normal!important;
+    color: #999999;
+}
+
+caption {
+    display: none;
+}
+
+a,
+img,
+input,
+button,
+span {
+    transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.margin-15 {
+    margin-top: 15px!important;
+}
+
+.margin-20 {
+    margin-top: 20px!important;
+}
+
+.margin-25 {
+    margin-top: 25px!important;
+}
+
+.margin-30 {
+    margin-top: 30px!important;
+}
+
+.margin-35 {
+    margin-top: 35px!important;
+}
+
+.margin-40 {
+    margin-top: 40px!important;
+}
+
+.margin-45 {
+    margin-top: 45px!important;
+}
+
+.margin-50 {
+    margin-top: 50px!important;
+}
+
+.margin-55 {
+    margin-top: 55px!important;
+}
+
+.margin-60 {
+    margin-top: 60px!important;
+}
+
+.margin-65 {
+    margin-top: 65px!important;
+}
+
+.top-nav {
+    float: right;
+    width: auto;
+}
+
+.top-nav ul {
+    margin: 5px 0 5px 0;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.top-nav ul li a {
+    font-size: 13px;
+    font-weight: normal;
+    color: #ff5a00;
+    padding: 0 0px 0 0px;
+    opacity: 0.6
+}
+
+.top-nav ul li a:hover {
+    color: #ff5a00
+}
+
+.logo {
+    width: auto;
+    float: left;
+}
+
+.logo-text {
+    float: left;
+    width: 100%;
+}
+
+.logo-text a {
+    font-size: 33.8px;
+    text-transform: uppercase;
+    color: #ff5a00;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-nav {
+    float: right;
+    width: 90%
+}
+
+.header-top {
+    background-color: #fff;
+}
+
+#navbar {
+    padding: 0px 0;
+    background: #016eb6!important;
+    z-index: 999;
+    min-height: 60px;
+    box-shadow: 0px 5px 3px  #016eb6!important;
+}
+
+.navigation {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.content {
+    box-shadow: 0px 5px 16px darkgrey;
+    background: #016eb6!important;
+    min-height: 400px;
+    top: 0;
+    text-align: center;
+    align-items: center;
+    display: flex!important;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    display: table-cell;
+    border-radius: 10px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.content-home {
+    padding: 50px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 5px 16px darkgrey;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content-home h2 {
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+
+.content-inner {
+    padding: 50px;
+    width: 50%;
+    background:  #FFFFFF;
+    box-shadow: 0px 5px 16px darkgrey;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.content-inner h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #00aeef;
+}
+
+.submit input {
+    background: #c5391ddc!important;
+    color: rgba(255, 255, 255, 0.974);
+    padding: 10px 0px;
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+}
+
+
+/* #fe7c00 */
+
+.submit input:hover {
+    background: #080707;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+.btn-success,
+.btn-xs {
+    background-color: #016eb6;
+    border-color: #016eb6;
+}
+
+.btn-success:hover,
+.btn-xs:hover,
+.btn-success:focus,
+.btn-xs:focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.form-group label {
+    color: rgb(9, 8, 8);
+}
+
+.marginbtm-15 {
+    margin-bottom: 15px!important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+@media(max-width: 575px) {
+    .header-top {
+        display: flex;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content h1 {
+        line-height: 1.1;
+    }
+}
+/* =============================================================================
+HTML5 CSS Reset Minified - Eric Meyer
+========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+My CSS
+========================================================================== */
+
+/* HTML5 CSS Reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,
+sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,figcaption,figure,footer,header,hgroup,menu,nav,section,
+summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+/* Custom Styles */
+
+
+.img-fluid {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.logo-box {
+    position: relative;
+    display: block;
+    margin: 2px 0;
+    transition: all 500ms ease 100ms;
+}
+.logo-box .globe {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 10;
+    left: 77px;
+    top: 25px;
+}
